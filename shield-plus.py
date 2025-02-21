@@ -99,22 +99,22 @@ def password_strength(password):
     return f"{color}Password Strength: {strength} {emoji}", suggestions, strength
 
 def save_password(password, description=""):
-    # Create passwords directory if it doesn't exist
+    
     if not os.path.exists("passwords"):
         os.mkdir("passwords")
     
-    # Create date directory
+    
     today = datetime.datetime.now().strftime("%Y-%m-%d")
     date_dir = os.path.join("passwords", today)
     if not os.path.exists(date_dir):
         os.mkdir(date_dir)
     
-    # Create a timestamp for the filename
+    
     timestamp = datetime.datetime.now().strftime("%H-%M-%S")
     filename = f"password_{timestamp}.txt"
     file_path = os.path.join(date_dir, filename)
     
-    # Save the password with description
+    
     with open(file_path, "w") as file:
         file.write(f"Password: {password}\n")
         if description:
