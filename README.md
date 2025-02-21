@@ -1,6 +1,6 @@
-# PassCheck
+# Shield+
 
-![logo](https://github.com/0xSaikat/passcheck/blob/main/passcheck_cover.png)
+![logo](https://github.com/0xSaikat/passcheck/blob/main/___.png)
 
 ## Overview
 
@@ -21,7 +21,7 @@ Created by [0xSaikat](https://www.linkedin.com/in/0xsaikat/) and an official too
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/0xSaikat/PassCheck.git
+   git clone https://github.com/0xSaikat/shield-plus
    cd PassCheck
 2. Install the required dependencies:
    ```bash
