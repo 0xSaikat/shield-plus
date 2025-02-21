@@ -1,6 +1,6 @@
 # Shield+
 
-![logo](https://github.com/0xSaikat/passcheck/blob/main/___.png)
+![logo](https://github.com/0xSaikat/passcheck/blob/main/#.png)
 
 ## Overview
 
