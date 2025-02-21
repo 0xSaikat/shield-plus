@@ -22,7 +22,7 @@ Created by [0xSaikat](https://www.linkedin.com/in/0xsaikat/) and an official too
 1. Clone the repository:
    ```bash
    git clone https://github.com/0xSaikat/shield-plus
-   cd PassCheck
+   cd shield-plus
 2. Install the required dependencies:
    ```bash
    pip install -r requirements.txt
